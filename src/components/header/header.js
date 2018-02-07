@@ -4,12 +4,12 @@ import './header.css'
 function Header(props) {
     return (
         <div className='header'>
+            <img src='../../../img/logo.png' />
             <form>
-                <label htmlFor="title">Title: </label>
-                <input
-                    type="text"
+                <input style={{textAlign:'center'}}
+                    placeholder='Search'
+                    type='text'
                 />
-                <button type="submit">Add Movie</button>
             </form>
         </div>
     );
