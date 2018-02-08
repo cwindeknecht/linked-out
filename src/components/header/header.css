@@ -1,9 +1,19 @@
 .header {
     width: 100%;
-    height: 50px;
+    height: 40px;
     background: black;
     color: red;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 5px;
+}
+
+.logo, .link {
+    height: 40px;
+    width: 50px;
+}
+
+.link:hover {
+    border: 2px solid red;
 }
