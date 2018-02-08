@@ -19,7 +19,7 @@ class App extends Component {
         </div>
         <div className="main-container">
           <Connections />
-          <ul>
+          <ul className="main-items">
           {this.state.users.map((user) => {
             return <Main 
             key={user.id} 
