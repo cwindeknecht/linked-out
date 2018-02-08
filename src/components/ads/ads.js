@@ -3,7 +3,7 @@ import './ads.css'
 
 function Ads(props) {
     return (
-        <div className="ad"></div>
+        <div className="ad">Don't Buy This Crap!</div>
     );
 }
 

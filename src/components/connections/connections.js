@@ -3,7 +3,7 @@ import './connections.css';
 
 function Connections(props) {
     return (
-        <div className='container'></div>
+        <div className='container'> You Have 0 Connections!  Good Job</div>
       );
 }
 
