@@ -3,3 +3,8 @@ html, body {
     max-width: 1000px;
     background: grey;
 }
+
+.main-container {
+    display:flex;
+    display:row;
+}
