@@ -9,7 +9,7 @@ const data = [
     {
         id: 1,
         name: "Fat Mike",
-        image: {fatmike},
+        image: './img/fatmike.jpg',
         band: "NoFx",
     },
     {

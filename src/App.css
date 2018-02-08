@@ -6,7 +6,7 @@ html, body {
 
 .main-container {
     display:flex;
-    display:row;
+    flex-flow:row;
     background: black;
     color: red;
 }
